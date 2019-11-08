@@ -1,0 +1,45 @@
+body {
+    position: center;
+    background-color: mintcream;
+    min-width:300px;
+    font-size: larger;
+    text-align: center;
+}
+
+input[type=text] {
+    border-color: honeydew;
+    border-radius: 4px;
+    height: 25px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: lightblue;
+    border-color: honeydew;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 8px 0px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+ul {
+    text-align: left;
+    list-style-type: circle;
+}
+
+label {
+    color: gray;
+    font-family: Gill Sans, sans-serif;
+}
+
+.spoilerListItem {
+    text-decoration: none;
+    color: gray;
+    font-size: medium;
+}
